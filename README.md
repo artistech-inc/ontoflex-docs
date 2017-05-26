@@ -12,16 +12,20 @@ The graph includes "Is-a", "Peer-to" and other links between terms and phrases. 
 - Ranking
 - File Reading
 - Results Output
+- Read from RSS/ATOM
+- Read from a list of web-sites
+- CLI
+- CLI API discovery
+- CLI Update Progress (back to front-end)
 
 ## What doesn't work:
 - Chunk Matching
-- GUI
+- GUI; Uses the existing .NET UI as a front-end.
 
 ## To Do:
-- Web
-- Hadoop
+- Web/Tomcat
+- Hadoop (see hadoop.md); proof-of-conecpt, not end-to-end yet.
 - Swing/UI
-- CLI which can be called from external process
 
 ## Complile:  
 `mvn clean install`
@@ -31,7 +35,7 @@ The graph includes "Is-a", "Peer-to" and other links between terms and phrases. 
 - [Commons Lang 3.5](https://commons.apache.org/proper/commons-lang/)
 - [Commons IO 2.5](https://commons.apache.org/proper/commons-io/)
 - [Commons Collections 4.1](https://commons.apache.org/proper/commons-collections/)
-- [Jackson JSON 2.8.8](https://github.com/FasterXML/jackson)
+- [Jackson JSON 2.8.8](https://github.com/FasterXML/jackson) - referenced, unused.
 - [Commons Beansutils 1.9.3](https://commons.apache.org/proper/commons-beansutils/)
 
 ### Tika Project
@@ -40,4 +44,4 @@ The Apache Tika™ toolkit detects and extracts metadata and text from over a th
 ## Proof of Concept
 - Swing/UI layout
 - FX web browser for displaying results as HTML.
-- CLI using a beanshell script for setting up a search.
+- Hadoop
